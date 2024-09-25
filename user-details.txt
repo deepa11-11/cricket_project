@@ -1,0 +1,10 @@
+
+    Hello deepa,
+
+    Thank you for registering. Here are the details you provided:
+    Username: deepa
+    Email: deepalakshmig22it@psnacet.edu.in
+    Phone: 9888
+    Club Name: dd
+    Team Name: hkj
+    

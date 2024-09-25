@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        body {
+            min-height: 100vh;
+            width: 100%;
+            background: #c8e8e9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background: #fff;
+            border-radius: 6px;
+            padding: 40px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+        .left-side {
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+            position: relative;
+        }
+        .left-side::before {
+            content: '';
+            position: absolute;
+            height: 70%;
+            width: 2px;
+            right: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #afafb6;
+        }
+        .details {
+            margin: 14px;
+            text-align: center;
+        }
+        .details i {
+            font-size: 30px;
+            color: #3e2093;
+            margin-bottom: 10px;
+        }
+        .details .topic {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .right-side {
+            width: 65%;
+            margin-left: 20px;
+        }
+        .topic-text {
+            font-size: 26px;
+            font-weight: 600;
+            color: #3e2093;
+            margin-bottom: 20px;
+        }
+        .description {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+        @media (max-width: 950px) {
+            .container {
+                width: 95%;
+                padding: 30px;
+            }
+            .right-side {
+                width: 65%;
+                margin-left: 30px;
+            }
+        }
+        @media (max-width: 820px) {
+            .container {
+                margin: 40px 0;
+                height: 100%;
+            }
+            .content {
+                flex-direction: column;
+            }
+            .left-side {
+                width: 100%;
+                flex-direction: row;
+                margin-top: 40px;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .left-side::before {
+                display: none;
+            }
+            .right-side {
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="left-side">
+                <div class="details">
+                    <i class="fas fa-user-friends"></i>
+                    <div class="topic">Join Us</div>
+                    <div class="text-one">Become a part of our community!</div>
+                    <div class="text-two">Connect with fellow enthusiasts.</div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="topic-text">About Tournament Hub</div>
+                <div class="description">
+                    <p>Welcome to Tournament Hub! We’re here to make tournament registration easy and accessible for everyone. Whether you're a player, team, or organizer, our platform connects you with exciting competitions across various sports and games.</p>
+                    <p>Our mission is to simplify the registration process so you can focus on what you love—playing and competing. Join our community and discover new tournaments while connecting with fellow enthusiasts.</p>
+                    <p>Thank you for choosing Tournament Hub! Let’s get started on your competitive journey!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

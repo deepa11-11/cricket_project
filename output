@@ -1,0 +1,10 @@
+output for CricketTournamentScheduler.java
+
+Cricket Tournament Schedule:
+
+Match 1: Team A vs Team B | Date: 25-09-2024 | Time: 11:00 | Format: T20
+Match 2: Team A vs Team C | Date: 27-09-2024 | Time: 15:00 | Format: ODI
+Match 3: Team A vs Team D | Date: 29-09-2024 | Time: 10:00 | Format: Test
+Match 4: Team B vs Team C | Date: 01-10-2024 | Time: 14:00 | Format: ODI
+Match 5: Team B vs Team D | Date: 03-10-2024 | Time: 16:00 | Format: T20
+Match 6: Team C vs Team D | Date: 05-10-2024 | Time: 12:00 | Format: Test

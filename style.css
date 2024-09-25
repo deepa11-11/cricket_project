@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=Lemon&family=Patua+One&family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(1088595.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border-radius: 15px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 0 10px black;
+  backdrop-filter: blur(5px);
+}
+.container .wrapper {
+  width: 100%;
+  color: black;
+}
+.wrapper h1{
+  text-align: center;
+  font-size: 3rem;
+  margin: 10px 0;
+}
+.wrapper .inputs {
+  width: 80%;
+  height: 5vh;
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  justify-content: space-between;
+  margin: 8% 10%;
+}
+.inputs input {
+  width: 90%;
+  padding-left: 10px;
+  color: blak;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+::placeholder{
+  color: black;
+}
+.inputs label {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rem-check {
+  display: flex;
+  width: 80%;
+  margin: 0 10%;
+  justify-content: space-between;
+}
+.rem-check .forget a {
+  color: black;
+  text-decoration: none;
+}
+.forget a:hover {
+  color: brown;
+}
+button {
+  width: 80%;
+  height: 7vh;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #88dededd;
+  color: black;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 7% 10%;
+}
+button:hover {
+  box-shadow: 0 0 15px #f5f5f5;
+  transform: scale(1.05);
+}
+.wrapper p {
+  margin: 20px 0;
+  text-align: center;
+}
+p span {
+  font-size: 1.3rem;
+}
+.social-icon {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-icon div i {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: 0.3s linear;
+}
+.social-icon .google i {
+  background-color: red;
+  box-shadow: 0 0 50px red;
+  color: white;
+}
+.social-icon .facebook i {
+  background-color: blue;
+  box-shadow: 0 0 50px blue;
+  color: white;
+}
+.social-icon .twitter i {
+  background-color: black;
+  box-shadow: 0 0 50px black;
+  color: white;
+}
+.google i:hover {
+  box-shadow: 0 0 20px red;
+  color: red;
+  background-color: transparent;
+}
+.facebook i:hover {
+  box-shadow: 0 0 20px blue;
+  color: blue;
+  background-color: transparent;
+}
+.twitter i:hover {
+  box-shadow: 0 0 20px black;
+  color: black;
+  background-color: transparent;
+}

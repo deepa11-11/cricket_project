@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registration Page</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Register</h1>
+            <form action="/register.php" method="POST">
+
+                <div class="inputs">
+                    <input type="text" name="username" placeholder="Username" required>
+                    <label for=""><i class="fa-solid fa-user"></i></label>
+                </div>
+
+                <div class="inputs">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <label for=""><i class="fa-solid fa-envelope"></i></label>
+                </div>
+
+                <div class="inputs">
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                    <label for=""><i class="fa-solid fa-phone"></i></label>
+                </div>
+
+                <div class="inputs">
+                    <input type="text" name="clubname" placeholder="Club Name" required>
+                    <label for=""><i class="fa-solid fa-building"></i></label>
+                </div>
+
+                <div class="inputs">
+                    <input type="text" name="teamname" placeholder="Team Name" required>
+                    <label for=""><i class="fa-solid fa-users"></i></label>
+                </div>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

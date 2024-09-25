@@ -1,0 +1,21 @@
+## Overview
+This project is a web-based platform designed for cricket tournament organizers to manage tournaments, upload match details, and allow club members to register and participate. Inspired by platforms like Internshala, the website simplifies tournament registration, scheduling tournament.
+
+## Features
+*Admin/Tournament Organizer Panel:-
+  - Upload tournament details (e.g., dates, venue, teams).
+  - Manage club registrations and participant information.
+  - Schedule matches and upload match results.
+  - Notify participants of match updates or changes.
+  
+*Club/Player Interface:-
+  - Club registration to participate in tournaments.
+  - Player management within clubs.
+  - Track tournament progress and view schedules.
+
+## Tech Stack
+- Frontend: React.js, HTML, CSS ,JS
+- Backend: Node.js, PHP
+- Database: MongoDB, Mysql
+- Hosting: (Specify hosting service e.g. Github)
+- Version Control: Git & GitHub
